@@ -38,10 +38,11 @@ export const Navbar = styled.nav`
   justify-content: space-around;
 
   a {
-    font-size: 18px;
+    font-size: 17px;
     text-decoration: none;
     color: white;
     transition: 0.05s;
+    font-weight: bold;
 
     :hover {
       border-bottom: 2px solid #fff;
