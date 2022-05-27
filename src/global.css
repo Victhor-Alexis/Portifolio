@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Tomorrow';
+  src: url("./assets/tomorrow_font/Tomorrow-Regular.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Tomorrow-Light';
+  src: url("./assets/tomorrow_font/Tomorrow-Light.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Tomorrow-Light';
+}
+
+html, body {
+  height: 100%;
+  background: linear-gradient(to right, #3B8698, #00CDFF);
+}
+
+#root {
+  height: 100%;
+}
