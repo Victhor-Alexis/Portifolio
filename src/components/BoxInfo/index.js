@@ -1,10 +1,11 @@
 import React from 'react'
+import CircleIcon from '../CircleIcon'
 import { Container } from './styles'
 
-const BoxInfo = ({title, children}) => {
+const BoxInfo = ({title, children, right}) => {
   return (
     <Container>
-      <h2>{title}</h2>
+      <h2><CircleIcon right={!right}/>{title}<CircleIcon right={right}/></h2>
       <p>{children}</p>
     </Container>
   )
