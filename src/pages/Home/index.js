@@ -4,7 +4,7 @@ import CircleIcon from '../../components/CircleIcon'
 import ConnectionLines from '../../components/ConnectionLines'
 import GreatCircle from '../../components/GreatCircle'
 import Header from '../../components/Header'
-import { BoxesWrapper, ContainerTop } from './styles'
+import { BoxesWrapper, ContainerBottom, ContainerTop } from './styles'
 
 const Home = () => {
   return (
@@ -29,6 +29,11 @@ const Home = () => {
 
         <GreatCircle style={{marginTop: "8rem", marginLeft: "2rem"}} width={350} color={"#6CD1DF"}/>
       </ContainerTop>
+
+      <ContainerBottom>
+        <GreatCircle style={{}} width={210} color={"#43A0BD"}/>
+        <GreatCircle style={{}} width={285} color={"#62B1CA"}/>
+      </ContainerBottom>
     </>
   )
 }

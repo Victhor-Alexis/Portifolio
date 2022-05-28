@@ -35,3 +35,10 @@ export const BoxesWrapper = styled.div`
 export const ContainerTop = styled.div`
   display: flex;
 `;
+
+export const ContainerBottom = styled.div`
+  display: flex;
+  width: 55rem;
+  align-items: center;
+  justify-content: space-around;
+`;

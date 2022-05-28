@@ -21,6 +21,22 @@
   font-family: 'Tomorrow-Light';
 }
 
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #3B8698;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #303030;
+}
+
 html, body {
   height: 100%;
   background: linear-gradient(to right, #3B8698, #00CDFF);
