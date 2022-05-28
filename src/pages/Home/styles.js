@@ -31,3 +31,7 @@ export const BoxesWrapper = styled.div`
     color: white;
   }
 `;
+
+export const ContainerTop = styled.div`
+  display: flex;
+`;

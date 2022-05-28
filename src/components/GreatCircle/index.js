@@ -1,12 +1,13 @@
 import React from 'react'
-import { Container } from './styles'
+import { BiggerCircle, SmallerCircle } from './styles'
 
-const CircleIcon = ({right, style}) => {
+const GreatCircle = ({width, color, style}) => {
+
   return (
-    <Container right={right} style={style}>
-      
-    </Container>
+    <BiggerCircle style={style} width={width} color={color}>
+      <SmallerCircle width={width/2} color={color}/>
+    </BiggerCircle>
   )
 }
 
-export default CircleIcon
+export default GreatCircle

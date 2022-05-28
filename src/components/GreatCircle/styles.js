@@ -1,12 +1,31 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  width: 20px;
-  height: 20px;
-  background-color: #BBBBBB;
-  border-radius: 10px;
-  margin: 0 1rem;
-  margin-top: 0.15rem;
+export const BiggerCircle = styled.div`
+  border-radius: 50%;
+  width: ${props => props.width ? props.width + "px" : '0'};
+  height: ${props => props.width ? props.width + "px" : '0'};
+  border: ${props => props.color ? `1px solid ${props.color}` : "none"};
+  position: relative;
+  transition: 0.3s;
 
-  display: ${props => props.right === undefined ? "block" : (!!props.right ? "block" : "none")};
+  :hover {
+    border: ${props => props.color ? `4px solid ${props.color}` : "none"};
+  }
+`;
+
+export const SmallerCircle = styled.div`
+  border-radius: 50%;
+  width: ${props => props.width ? props.width + "px": '0'};
+  height: ${props => props.width ? props.width + "px": '0'};
+  border: ${props => props.color ? `1px solid ${props.color}` : "none"};
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.5s;
+  animation-timing-function: linear;
+
+  :hover {
+    border: ${props => props.color ? `6px solid ${props.color}` : "none"};
+  }
 `;
