@@ -21,7 +21,7 @@ export const Container = styled.div`
   svg {
     animation-delay: 0.4s;
     animation-name: drawLines;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
   }
 `;
 

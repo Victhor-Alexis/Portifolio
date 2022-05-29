@@ -3,7 +3,6 @@ import { Close, Container, IconMenu, Logo, Navbar, NavMobile, Sidebar } from './
 import LogoImage from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom'
 import { AiFillCloseCircle } from "react-icons/ai";
-import { CgMenuRight } from 'react-icons/cg'
 
 const Header = () => {
   const [displayMobMenu, setDisplayMobMenu] = useState(["none", 0]);
@@ -26,7 +25,7 @@ const Header = () => {
       </Logo>
 
       <Navbar>
-        <Link to="/">Home</Link>
+        <Link style={{borderBottom: "2px solid #fff"}} to="/">Home</Link>
         <Link to="projects">Projetos</Link>
         <Link to="about">Sobre</Link>
         <Link to="contact">Contato</Link>
