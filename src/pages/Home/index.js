@@ -9,7 +9,7 @@ import { BoxesWrapper, ContainerBottom, ContainerTop } from './styles'
 const Home = () => {
   return (
     <>
-      <Header/>
+      <Header selectedLink={[2,0,0,0]}/>
       <ContainerTop>
         <BoxesWrapper>
           <ConnectionLines/>

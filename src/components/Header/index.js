@@ -4,7 +4,7 @@ import LogoImage from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom'
 import { AiFillCloseCircle } from "react-icons/ai";
 
-const Header = () => {
+const Header = ({selectedLink}) => {
   const [displayMobMenu, setDisplayMobMenu] = useState(["none", 0]);
 
   const show_hideMobMenu = (display) => {
@@ -25,10 +25,10 @@ const Header = () => {
       </Logo>
 
       <Navbar>
-        <Link style={{borderBottom: "2px solid #fff"}} to="/">Home</Link>
-        <Link to="projects">Projetos</Link>
-        <Link to="about">Sobre</Link>
-        <Link to="contact">Contato</Link>
+        <Link style={{borderBottom: `${selectedLink[0]}px solid #fff`}} to="/">Home</Link>
+        <Link style={{borderBottom: `${selectedLink[1]}px solid #fff`}} to="about">Sobre</Link>
+        <Link style={{borderBottom: `${selectedLink[2]}px solid #fff`}} to="projects">Projetos</Link>
+        <Link style={{borderBottom: `${selectedLink[3]}px solid #fff`}} to="contact">Contato</Link>
       </Navbar>
 
       <NavMobile>
