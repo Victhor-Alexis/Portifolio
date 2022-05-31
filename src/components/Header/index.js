@@ -26,9 +26,9 @@ const Header = ({selectedLink}) => {
 
       <Navbar>
         <Link style={{borderBottom: `${selectedLink[0]}px solid #fff`}} to="/">Home</Link>
-        <Link style={{borderBottom: `${selectedLink[1]}px solid #fff`}} to="about">Sobre</Link>
-        <Link style={{borderBottom: `${selectedLink[2]}px solid #fff`}} to="projects">Projetos</Link>
-        <Link style={{borderBottom: `${selectedLink[3]}px solid #fff`}} to="contact">Contato</Link>
+        <Link style={{borderBottom: `${selectedLink[1]}px solid #fff`}} to="/about">Sobre</Link>
+        <Link style={{borderBottom: `${selectedLink[2]}px solid #fff`}} to="/projects">Projetos</Link>
+        <Link style={{borderBottom: `${selectedLink[3]}px solid #fff`}} to="/contact">Contato</Link>
       </Navbar>
 
       <NavMobile>

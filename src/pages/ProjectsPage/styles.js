@@ -16,35 +16,20 @@ export const BoxesWrapper = styled.div`
   width: 55rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: start;
   margin-top: 2rem;
   position: relative;
+  margin-left: 1.5rem;
 
-  h2 {
-    font-size: 36px;
+  h3:first-of-type {
+    width: 25rem;
+    height: 14.5rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
     color: white;
-    width: 42rem;
-    margin-top: 6.5rem;
-    margin-left: 5rem;
-    font-weight: normal;
-
-    span {
-      font-weight: bold;
-    }
-  }
-
-  h3 {
-    font-size: 28px;
-    color: white;
-    width: 38rem;
-    margin-top: 1.5rem;
-    margin-left: 5rem;
-    font-weight: normal;
-    text-align: justify;
-    letter-spacing: -1px;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    padding: 1.5rem 0;
-    margin-bottom: 2.5rem;
   }
 `;
 

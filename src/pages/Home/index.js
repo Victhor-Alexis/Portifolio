@@ -19,7 +19,7 @@ const Home = () => {
           <BoxInfo title="Aplicativos móveis" right={false}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar ex vel mi iaculis egestas. Integer eget leo ligula. Cras laoreet dolor pretium lacus semper consectetur. Vivamus ut elit pellentesque, blanda mi dictum, luctus viverra velit imperdiet.
           </BoxInfo>
-          <BoxInfo title="Aplicações para desktop" right={true}>
+          <BoxInfo title="Aplicações para desktop" right={true} left={false}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar ex vel mi iaculis egestas. Integer eget leo ligula. Cras laoreet dolor pretium lacus semper consectetur. Vivamus ut elit pellentesque, blanda mi dictum, luctus viverra velit imperdiet.
           </BoxInfo>
           <BoxInfo title="Sites" right={false}>
