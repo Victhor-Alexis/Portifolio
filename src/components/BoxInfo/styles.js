@@ -38,5 +38,15 @@ export const Container = styled.div`
     font-family: 'Tomorrow-Regular';
     letter-spacing: -0.7px;
   }
+`;
 
+export const IconsWrapper = styled.div`
+  display: ${ props => props.linksDisplay ? "flex" : "none"};
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  a {
+    font-size: 14px;
+  }
 `;

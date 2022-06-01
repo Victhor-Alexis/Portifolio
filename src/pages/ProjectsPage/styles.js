@@ -18,7 +18,6 @@ export const BoxesWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: start;
   margin-top: 2rem;
-  position: relative;
   margin-left: 1.5rem;
 
   h3:first-of-type {
