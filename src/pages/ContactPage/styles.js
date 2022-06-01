@@ -41,4 +41,25 @@ export const ContainerBottom = styled.div`
   width: 55rem;
   align-items: center;
   justify-content: space-around;
+  margin-top: 2.5rem;
+`;
+
+export const ContactInfo = styled.div`
+  width: 27rem;
+  border-left: 4px solid #fff;
+  height: 11.5rem;
+  color: white;
+  padding: 0 2%;
+
+  h2 {
+    margin: 0.9rem 0;
+  }
+
+  a {
+    width: 100%;
+    display: block;
+    color: white;
+    font-size: 21px;
+    margin: 0.9rem 0;
+  }
 `;

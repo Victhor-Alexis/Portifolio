@@ -33,7 +33,7 @@ const AboutPage = () => {
           </h2>
 
           <h3 style={{display: textDisplay[1]}}>
-            Sou pragmático, rápido e eficiênte, sem perder o bom gosto, como se pode 
+            Sou pragmático, rápido e eficiente, sem perder o bom gosto, como se pode 
             observar com o design simples e clean deste site. Tenho conhecimentos a 
             respeito de todo o processo relacionado ao desenvolvimento de projetos web, 
             aplicativos, aplicações para desktop, desde o levantamento de requisitos, 

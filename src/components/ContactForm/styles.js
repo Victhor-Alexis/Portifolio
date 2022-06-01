@@ -9,6 +9,7 @@ export const Container = styled.form`
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  margin-top: 1.3rem;
   
   h2 {
     color: white;

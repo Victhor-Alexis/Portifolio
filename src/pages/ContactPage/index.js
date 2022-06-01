@@ -2,7 +2,8 @@ import React from 'react'
 import ContactForm from '../../components/ContactForm'
 import GreatCircle from '../../components/GreatCircle'
 import Header from '../../components/Header'
-import { BoxesWrapper, ContainerBottom, ContainerTop } from './styles'
+import WppContact from '../../components/WppContact'
+import { BoxesWrapper, ContactInfo, ContainerBottom, ContainerTop } from './styles'
 
 const ContactPage = () => {
   return (
@@ -11,13 +12,20 @@ const ContactPage = () => {
       <ContainerTop>
         <BoxesWrapper>
           <ContactForm/>
+          <WppContact style={{marginLeft: "9rem", marginTop: "10rem"}}/>
         </BoxesWrapper>
 
-        <GreatCircle style={{marginTop: "5.5rem", marginLeft: "2rem"}} width={350} color={"#6CD1DF"}/>
+        <GreatCircle style={{marginTop: "6.5rem"}} width={350} color={"#6CD1DF"}/>
       </ContainerTop>
 
       <ContainerBottom>
-        <GreatCircle style={{}} width={210} color={"#43A0BD"}/>
+        <ContactInfo>
+          <h2>victhoralexis123@gmail.com</h2>
+          <h2>+55 (61) 992516558</h2>
+          <a href="https://github.com/Victhor-Alexis" target="_blank" rel="noreferrer">Github</a>
+          <a href="https://www.linkedin.com/in/victhor-paiva-a78717223/" target="_blank" rel="noreferrer">Linkedin</a>
+        </ContactInfo>
+        
         <GreatCircle style={{}} width={285} color={"#62B1CA"}/>
       </ContainerBottom>
     </>
