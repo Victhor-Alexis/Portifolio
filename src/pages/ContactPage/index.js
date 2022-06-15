@@ -12,7 +12,9 @@ const ContactPage = () => {
       <ContainerTop>
         <BoxesWrapper>
           <ContactForm/>
-          <WppContact style={{marginLeft: "9rem", marginTop: "10rem"}}/>
+          <div className="wpp">
+            <WppContact/>
+          </div>
         </BoxesWrapper>
 
         <GreatCircle style={{marginTop: "6.5rem"}} width={350} color={"#6CD1DF"}/>

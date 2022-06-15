@@ -30,6 +30,23 @@ export const BoxesWrapper = styled.div`
     font-size: 46px;
     color: white;
   }
+
+  .wpp {
+    margin-left: 9rem;
+    margin-top: 10rem;
+  }
+
+  @media screen and (max-width: 765px) {
+    justify-content: center;
+    margin-left: 0;
+    
+    .wpp {
+      margin: 4rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
 `;
 
 export const ContainerTop = styled.div`
@@ -42,6 +59,21 @@ export const ContainerBottom = styled.div`
   align-items: center;
   justify-content: space-around;
   margin-top: 2.5rem;
+
+  @media screen and (max-width: 1270px) {
+    justify-content: start;
+    padding-left: 2.5rem;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 840px) {
+    margin-bottom: 12rem;
+  }
+
+  @media screen and (max-width: 765px) {
+    justify-content: center;
+    margin-bottom: 11rem;
+  }
 `;
 
 export const ContactInfo = styled.div`
@@ -61,5 +93,13 @@ export const ContactInfo = styled.div`
     color: white;
     font-size: 21px;
     margin: 0.9rem 0;
+  }
+
+  @media screen and (max-width: 400px) {
+    height: 10.5rem;
+
+    h2 {
+      font-size: 18px;
+    }
   }
 `;

@@ -50,4 +50,8 @@ export const Container = styled.form`
     height: 7rem;
     margin: 0.4rem 0;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 95%;
+  }
 `;
