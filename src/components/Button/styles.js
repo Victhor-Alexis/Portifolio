@@ -13,6 +13,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  min-width: 17.5rem;
 
   :hover {
     background-color: #202020;

@@ -24,8 +24,11 @@ export const BoxesWrapper = styled.div`
     color: white;
     width: 42rem;
     margin-top: 6.5rem;
-    margin-left: 5rem;
     font-weight: normal;
+
+    @media screen and (max-width: 1270px) {
+      margin-bottom: 3rem;
+    }
 
     span {
       font-weight: bold;
@@ -37,7 +40,6 @@ export const BoxesWrapper = styled.div`
     color: white;
     width: 38rem;
     margin-top: 1.5rem;
-    margin-left: 5rem;
     font-weight: normal;
     text-align: justify;
     letter-spacing: -1px;
@@ -46,10 +48,38 @@ export const BoxesWrapper = styled.div`
     padding: 1.5rem 0;
     margin-bottom: 2.5rem;
   }
+
+  @media screen and (max-width: 840px) {
+    justify-content: center;
+
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    justify-content: center;
+
+    h2 {
+      width: 90%;
+    }
+
+    h3 {
+      width: 90%;
+      text-align: left;
+    }
+  }
 `;
 
 export const ContainerTop = styled.div`
   display: flex;
+  margin-left: 5.1rem;
+
+  @media screen and (max-width: 840px) {
+    margin-bottom: 10rem;
+    margin-left: 0;
+  }
 `;
 
 export const ContainerBottom = styled.div`
