@@ -38,6 +38,18 @@ export const Container = styled.div`
     font-family: 'Tomorrow-Regular';
     letter-spacing: -0.7px;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 90%;
+    
+    h2 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
 `;
 
 export const IconsWrapper = styled.div`
@@ -48,5 +60,26 @@ export const IconsWrapper = styled.div`
 
   a {
     font-size: 14px;
+    margin-top: 0.75rem;
+    height: 2rem;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #d9d9d9;
+    color: white;
+    border-radius: 2rem;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+
+    :hover {
+      background-color: white;
+      color: #3B8698;
+    }
+
+    @media screen and (max-width: 480px) {
+      font-size: 12px;
+      padding: 0.3rem 0.4rem;
+      border: 2px solid #d9d9d9;
+    }
   }
 `;

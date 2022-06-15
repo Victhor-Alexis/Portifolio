@@ -11,6 +11,10 @@ export const BiggerCircle = styled.div`
   :hover {
     border: ${props => props.color ? `4px solid ${props.color}` : "none"};
   }
+
+  @media screen and (max-width: 1270px) {
+    display: none;
+  }
 `;
 
 export const SmallerCircle = styled.div`

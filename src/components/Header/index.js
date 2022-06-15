@@ -44,9 +44,9 @@ const Header = ({selectedLink}) => {
           </Close>
           
           <Link to="/">Home</Link>
-          <Link to="projects">Projetos</Link>
-          <Link to="about">Sobre</Link>
-          <Link to="contact">Contato</Link>
+          <Link to="/projects">Projetos</Link>
+          <Link to="/about">Sobre</Link>
+          <Link to="/contact">Contato</Link>
 
         </Sidebar>
       </NavMobile>

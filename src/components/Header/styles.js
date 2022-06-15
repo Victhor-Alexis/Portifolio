@@ -62,6 +62,7 @@ export const NavMobile = styled.nav`
     align-items: center;
     margin-right: 1rem;
     margin-top: 0.35rem;
+    z-index: 999;
   }
 `;
 

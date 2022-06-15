@@ -4,6 +4,7 @@ import CircleIcon from '../../components/CircleIcon'
 import ConnectionLines from '../../components/ConnectionLines'
 import GreatCircle from '../../components/GreatCircle'
 import Header from '../../components/Header'
+import Lines from '../../components/Lines'
 import { BoxesWrapper, ContainerBottom, ContainerTop } from './styles'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
           <ConnectionLines/>
           
           <h3>Serviços <CircleIcon style={{marginTop: "0.65rem", marginLeft: "1.5rem"}}/></h3>
+          <Lines style={{marginBottom: "2rem", marginLeft: "10%", marginRight: "10%"}}/>
 
           <BoxInfo title="Aplicativos móveis" right={false}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar ex vel mi iaculis egestas. Integer eget leo ligula. Cras laoreet dolor pretium lacus semper consectetur. Vivamus ut elit pellentesque, blanda mi dictum, luctus viverra velit imperdiet.
@@ -27,7 +29,7 @@ const Home = () => {
           </BoxInfo>
         </BoxesWrapper>
 
-        <GreatCircle style={{marginTop: "8rem", marginLeft: "2rem"}} width={350} color={"#6CD1DF"}/>
+        <GreatCircle className="topCircle" style={{marginTop: "8rem", marginLeft: "2rem"}} width={350} color={"#6CD1DF"}/>
       </ContainerTop>
 
       <ContainerBottom>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from './styles'
 
-const CircleIcon = ({right, style}) => {
+const CircleIcon = ({right, style, className}) => {
   return (
     <Container right={right} style={style}>
       

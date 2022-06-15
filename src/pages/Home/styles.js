@@ -29,6 +29,16 @@ export const BoxesWrapper = styled.div`
     justify-content: center;
     font-size: 46px;
     color: white;
+
+    @media screen and (max-width: 860px) {
+      height: 3rem;
+      margin-top: 3rem;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    justify-content: center;
   }
 `;
 

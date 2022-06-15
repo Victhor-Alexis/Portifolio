@@ -23,6 +23,10 @@ export const Container = styled.div`
     animation-name: drawLines;
     animation-duration: 3.5s;
   }
+
+  @media screen and (max-width: 860px) {
+    display: none;
+  }
 `;
 
 export const Line = styled.div`

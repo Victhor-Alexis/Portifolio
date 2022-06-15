@@ -9,4 +9,8 @@ export const Container = styled.div`
   margin-top: 0.15rem;
 
   display: ${props => props.right === undefined ? "block" : (!!props.right ? "block" : "none")};
+
+  @media screen and (max-width: 860px) {
+    display: none;
+  }
 `;
