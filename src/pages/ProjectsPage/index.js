@@ -30,13 +30,13 @@ const ProjectsPage = () => {
           <BoxInfo style={{height: "19rem"}} links={["https://walrus-app-lu9jt.ondigitalocean.app/", "", "", "", "", "https://github.com/Victhor-Alexis/Numbers-Memory-Game", ""]} linksDisplay={["block", "none", "none", "none", "none", "block", "none"]} title="Jogo da memória com números" right={false} left={false}>
             Aplicação que foi baseada no procedimento realizado em um estudo na Carnegie Mellon University em 1980 performado por Ericsson, Chase and Feloon, para verificar se alguém com uma memória comum, através de treino, pode desenvolver uma memória capaz de decorar grandes sequências de números em intervalos de poucos segundos.
           </BoxInfo>
-          <BoxInfo style={{height: "19rem"}} linksDisplay={["none", "none", "none", "none", "block", "none", "none"]} title="App de gestão e controle de dados" right={false} left={false}>
+          <BoxInfo style={{height: "19rem"}} links={["", "", "", "", "https://youtu.be/DP0-jfHLC9c", "", "https://youtu.be/DP0-jfHLC9c"]} linksDisplay={["none", "none", "none", "none", "block", "none", "none"]} title="App de gestão e controle de dados" right={false} left={false}>
             App e sistema completo de gestão de dados para a secretaria de ministerio eclesiástico. Aplicativo feito para ser utilizado na resolução de problema real relacionado a organização de dados.
           </BoxInfo>
           {/*<BoxInfo style={{}} title="Sistema de recomendação de músicas" right={false} left={false}>
             Trabalho final de uma disciplina na faculdade: Métodos de Programação. O projeto foi feito com TDD, programação orientada a testes, e foram utilizadas as metodologias ágeis Scrum e Kanban. A recomendação da música é feita com base no interesse de outros usuários que acessam o sistema.
           </BoxInfo>*/}
-          <BoxInfo style={{height: "25rem"}} links={["https://walrus-app-lu9jt.ondigitalocean.app/", "", "", "", "", "", "https://github.com/Victhor-Alexis/Trabalho_final_ED.git"]} linksDisplay={["none", "none", "none", "none", "block", "none", "block"]} title="Sistema de gestão de turmas e alunos da universidade" right={false} left={false}>
+          <BoxInfo style={{height: "25rem"}} links={["", "", "", "", "https://youtu.be/YoeTkql1C98", "", "https://github.com/Victhor-Alexis/Trabalho_final_ED.git"]} linksDisplay={["none", "none", "none", "none", "block", "none", "block"]} title="Sistema de gestão de turmas e alunos da universidade" right={false} left={false}>
             O projeto não tem interface e foi feito em linguagem C. Contudo, para a construção deste sistema, foram usadas estruturas de dados, pilhas, filas e listas duplamente encadeadas, construídas sem a utilização de bibliotecas que trazem as estruturas prontas, de forma que eu tive que usar ponteiros, ponteiros de ponteiros, alocação dinâmica, structs, ou seja, conceitos mais avançados em programação que me tornaram apto para aprender demais outros conceitos relacionados ao desenvolvimento de software com mais facilidade.
           </BoxInfo>
         </BoxesWrapper>
