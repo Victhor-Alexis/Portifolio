@@ -33,12 +33,28 @@ export const BoxesWrapper = styled.div`
 
   @media screen and (max-width: 1270px) {
     justify-content: center;
-    margin-left: 0;
   }
 `;
 
 export const ContainerTop = styled.div`
   display: flex;
+  justify-content: space-between;
+
+  .circle {
+    margin-right: 1.5rem;
+
+    @media screen and (min-width: 1400px) {
+      margin-right: 7rem;
+    }
+
+    @media screen and (min-width: 1580px) {
+      margin-right: 14rem;
+    }
+
+    @media screen and (min-width: 1750px) {
+      margin-right: 20rem;
+    }
+  }
 
   @media screen and (max-width: 1270px) {
     justify-content: center;

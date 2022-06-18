@@ -39,11 +39,38 @@ export const BoxesWrapper = styled.div`
 
   @media screen and (max-width: 860px) {
     justify-content: center;
+    margin-left: 1rem;
   }
 `;
 
 export const ContainerTop = styled.div`
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .circle {
+    margin-right: 1rem;
+
+    @media screen and (min-width: 1320px) {
+      margin-right: 3rem;
+    }
+
+    @media screen and (min-width: 1400px) {
+      margin-right: 7rem;
+    }
+
+    @media screen and (min-width: 1500px) {
+      margin-right: 12rem;
+    }
+
+    @media screen and (min-width: 1650px) {
+      margin-right: 16rem;
+    }
+
+    @media screen and (min-width: 1800px) {
+      margin-right: 20rem;
+    }
+  }
 `;
 
 export const ContainerBottom = styled.div`

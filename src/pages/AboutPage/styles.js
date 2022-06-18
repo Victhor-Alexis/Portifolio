@@ -75,10 +75,32 @@ export const BoxesWrapper = styled.div`
 export const ContainerTop = styled.div`
   display: flex;
   margin-left: 5.1rem;
+  justify-content: space-between;
+
+  .circle {
+    margin-right: 3rem;
+
+    @media screen and (min-width: 1400px) {
+      margin-right: 10rem;
+    }
+
+    @media screen and (min-width: 1680px) {
+      margin-right: 18rem;
+    }
+
+    @media screen and (min-width: 1920px) {
+      margin-right: 25rem;
+    }
+  }
 
   @media screen and (max-width: 840px) {
     margin-bottom: 10rem;
     margin-left: 0;
+  }
+
+  @media screen and (max-width: 665px) {
+    margin-bottom: 10rem;
+    margin-left: 2.5rem;
   }
 `;
 
@@ -87,4 +109,5 @@ export const ContainerBottom = styled.div`
   width: 55rem;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 5rem;
 `;

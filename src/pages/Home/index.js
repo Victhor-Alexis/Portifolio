@@ -18,18 +18,20 @@ const Home = () => {
           <h3>Serviços <CircleIcon style={{marginTop: "0.65rem", marginLeft: "1.5rem"}}/></h3>
           <Lines style={{marginBottom: "2rem", marginLeft: "10%", marginRight: "10%"}}/>
 
-          <BoxInfo title="Aplicativos móveis" right={false}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar ex vel mi iaculis egestas. Integer eget leo ligula. Cras laoreet dolor pretium lacus semper consectetur. Vivamus ut elit pellentesque, blanda mi dictum, luctus viverra velit imperdiet.
+          <BoxInfo title="Desenvolvimento frontend" right={false}>
+            Criação de aplicações responsivas, com o desenvolvimento de telas pensado em interações facilitadas e intuitivas por parte do usuário. Capacidade de criação de interfaces com dinamicidade e animações utilizando tecnologias como react, javascript, html, css.
           </BoxInfo>
-          <BoxInfo title="Aplicações para desktop" right={true} left={false}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar ex vel mi iaculis egestas. Integer eget leo ligula. Cras laoreet dolor pretium lacus semper consectetur. Vivamus ut elit pellentesque, blanda mi dictum, luctus viverra velit imperdiet.
+          <BoxInfo title="Desenvolvimento backend" right={true} left={false}>
+            Produção de API's com implementação que facilita interoperabilidade de várias interfaces diferentes (sites, aplicativos) seguindo o estilo arquitetural REST. Utilização de padrão de arquitetura de software que contribui na otimização da velocidade entre as requisições feitas pelo usuário ao servidor (padrão MVC).
           </BoxInfo>
-          <BoxInfo title="Sites" right={false}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar ex vel mi iaculis egestas. Integer eget leo ligula. Cras laoreet dolor pretium lacus semper consectetur. Vivamus ut elit pellentesque, blanda mi dictum, luctus viverra velit imperdiet.
+          <BoxInfo title="Desenvolvimento mobile" right={false}>
+            Experiência no desenvolvimento de aplicações nativas para iOS e Android utilizando React Native e a ferramenta Expo. Utilização de biblioteca de armazenamento asíncrono que simula os cookies em web apps para criação de sistema de sessões de login (Async Storage). Manipulação, leitura e escrita de pdfs com expo-print e expo-sharing, entre outros conhecimentos.
           </BoxInfo>
         </BoxesWrapper>
 
-        <GreatCircle className="topCircle" style={{marginTop: "8rem", marginLeft: "2rem"}} width={350} color={"#6CD1DF"}/>
+        <div className="circle">
+          <GreatCircle className="topCircle" style={{marginTop: "8rem"}} width={350} color={"#6CD1DF"}/>
+        </div>
       </ContainerTop>
 
       <ContainerBottom>

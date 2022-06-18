@@ -48,7 +48,7 @@ export const Container = styled.div`
     margin-top: 6rem;
   }
 
-  @media screen and (min-height: 1060px) {
+  @media screen and (min-height: 1050px) {
     margin-top: 12rem;
   }
 
